@@ -28,7 +28,8 @@ This assistant can recognize voice commands, generate intelligent responses, pla
 ---
 
 # 📂 Project Structure
-'''bash
+
+```bash
 Jarvis-AI/
 │
 ├── main.py
@@ -36,43 +37,52 @@ Jarvis-AI/
 ├── musiclibrary.py
 ├── requirements.txt
 └── README.md
+```
 
-How to Run
+---
 
-1️⃣ Clone the Repository
+# ▶️ How to Run
 
+## 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/Jarvis-AI.git
-
 cd Jarvis-AI
+```
 
-2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Add API Keys
+## 3️⃣ Add API Keys
 
-Create a .env file and add:
+Create a `.env` file and add:
 
+```env
 OPENAI_API_KEY=your_api_key_here
-
 NEWS_API_KEY=your_newsapi_key_here
+```
 
-4️⃣ Run the Assistant
+## 4️⃣ Run the Assistant
 
+```bash
 python main.py
+```
 
-🎯 Future Improvements
+---
 
-GUI Interface
+# 🎯 Future Improvements
 
-Wake Word Detection
+- GUI Interface
+- Wake Word Detection
+- Chat History Storage
+- Multi-language Support
+- Smart Home Integration
 
-Chat History Storage
+---
 
-Multi-language Support
-
-Smart Home Integration
-
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
