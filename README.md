@@ -42,6 +42,7 @@ How to Run
 1️⃣ Clone the Repository
 
 git clone https://github.com/your-username/Jarvis-AI.git
+
 cd Jarvis-AI
 
 2️⃣ Install Dependencies
@@ -53,16 +54,23 @@ pip install -r requirements.txt
 Create a .env file and add:
 
 OPENAI_API_KEY=your_api_key_here
+
 NEWS_API_KEY=your_newsapi_key_here
 
 4️⃣ Run the Assistant
+
 python main.py
 
 🎯 Future Improvements
+
 GUI Interface
+
 Wake Word Detection
+
 Chat History Storage
+
 Multi-language Support
+
 Smart Home Integration
 
 📜 License
